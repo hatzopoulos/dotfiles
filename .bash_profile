@@ -9,6 +9,6 @@ fi
 
 export PATH=$HOME/bin:$PATH;
 
-source ".files/bash/aliases"
+source ".files/bash/aliases.bash"
 source ".files/bash/prompt"
 
