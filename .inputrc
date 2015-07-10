@@ -1,0 +1,3 @@
+"\eOD": backward-word # CTRL + RIGHT
+"\eOC": forward-word # CTRL + LEFT
+

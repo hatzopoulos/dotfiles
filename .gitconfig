@@ -1,0 +1,34 @@
+[push]
+	default = current
+[color]
+	ui = auto
+	interactive = auto
+	whitespace = red reverse
+[color "diff"]
+	whitespace = red reverse
+	meta = blue black bold
+[pager]
+	status = true
+	show-branch = true
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	di = diff
+	s = status -s
+	last = log -1 HEAD
+	unstage = reset HEAD --
+	staged = diff --cached
+	tags = tag -l
+	branches = branch -a
+	remotes = remote -v
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	contributors = shortlog --summary --numbered
+[merge]
+	renormalize = true
+[core]
+	autocrlf = input
+	pager = less -x4
+[rerere]
+	enabled = true
