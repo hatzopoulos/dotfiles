@@ -1,4 +1,2 @@
-dotfiles
-========
-
-my .files
+[Hatzopoulos](https://github.com/hatzopoulos)’ .files
+======================================================
